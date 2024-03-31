@@ -65,7 +65,7 @@ for i in range(1, 5):
             except AttributeError:
                 vram = 'N/A'
             additional_data.append([max_res, mem_speed, graphics, brand, vram])
-            items.append([product_name, rating, rating_count, price, product_url, additional_data[0][0], additional_data[0][1], additional_data[0][2], additional_data[0][3]])
+            items.append([product_name, rating, rating_count, price, product_url, additional_data[0][0], additional_data[0][1], additional_data[0][2], additional_data[0][3], additional_data[0][4]])
         except AttributeError:
             continue
         sleep(1)
